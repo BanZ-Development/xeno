@@ -8,6 +8,7 @@ nav {
 background-color: #333;
 position: fixed;
 display: inline-block;
+margin: 0px;
 }
 
 ul {
@@ -21,4 +22,6 @@ display: inline-block;
 a {
 text-decoration: none;
 color: grey;
+padding: 10px;
+border: none;
 }
