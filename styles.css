@@ -28,8 +28,17 @@ padding: 10px;
 border: solid 2px ;
 border-radius: 6px;
 background-color: #424040;
+border-color: #fff0;
 }
 
 a:hover {
     background-color: #504e4e;
+}
+
+.logo {
+    width: 46px;
+    height: 46px;
+    border-radius: 50%;
+    overflow: hidden;
+    margin-top: -6px;
 }
