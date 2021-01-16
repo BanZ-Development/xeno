@@ -3,7 +3,7 @@
 body {
 font-family: "Ubuntu";
 margin: 0px;
-background-color: #544b4b;
+background-color: #ffff;
 }
 
 nav {
@@ -44,4 +44,13 @@ a:hover {
     overflow: hidden;
     margin-bottom: -15px;
     margin-left: 5px;
+}
+
+.discord-server {
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.join-button {
+background-color: #333;
 }
