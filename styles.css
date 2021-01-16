@@ -7,14 +7,15 @@ font-family: "Ubuntu";
 nav {
 background-color: #333;
 position: fixed;
+display: inline-block;
 }
 
 ul {
-
+display: inline-block
 }
 
 li {
-
+display: inline-block;
 }
 
 a {
