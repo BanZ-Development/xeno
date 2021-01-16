@@ -56,3 +56,33 @@ a:hover {
 .join-button {
 background-color: #333;
 }
+
+.login {
+margin-top: 100px;
+}
+
+.login-logo {
+width: 50px;
+}
+
+.login-button {
+width: 60px;
+padding: 10px;
+border: none;
+border-radius: 6px;
+border-color: #333;
+background-color: #333;
+transition: ease-in;
+color: white;
+}
+
+.login-button:hover {
+background-color:  #424040;
+}
+
+h1 {
+    text-align: center;
+    color: black;
+    font-weight: 50%;
+    text-shadow: rgba(0, 0, 0, 0.623) 1px;
+}
