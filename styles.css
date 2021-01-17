@@ -149,6 +149,7 @@ margin-bottom: 6px;
     display: block;
     margin-right: auto;
     margin-left: auto;
+    border-radius: 6px;
 }
 
 .home-header {
