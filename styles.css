@@ -7,11 +7,12 @@ background-color: #ffff;
 }
 
 nav {
-background-color: #333;
+background-color: #292828;
 position: static;
 display: inline-block;
 margin: 0px;
 width: 100%;
+outline: none;
 }
 
 ul {
@@ -32,6 +33,7 @@ background-color: #424040;
 border-color: #fff0;
 transition: ease-in;
 font-size: 17px;
+outline: none;
 }
 
 a:hover {
@@ -78,6 +80,7 @@ display: block;
 margin-left: auto;
 margin-right: auto;
 text-align: center;
+outline: none;
 }
 
 .login-button:hover {
@@ -99,4 +102,6 @@ h1 {
     margin-left: auto;
     margin-right: auto;
     display: block;
+    margin-bottom: 10px;
+    outline: none;
 }
