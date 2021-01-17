@@ -15,5 +15,8 @@
   "bugs": {
     "url": "https://github.com/BanZ-Development/xeno/issues"
   },
-  "homepage": "https://github.com/BanZ-Development/xeno#readme"
+  "homepage": "https://github.com/BanZ-Development/xeno#readme",
+  "dependencies": {
+    "nedb": "^1.8.0"
+  }
 }
