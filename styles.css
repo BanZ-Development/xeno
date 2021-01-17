@@ -1,7 +1,7 @@
-@import url('https://fonts.googleapis.com/css2?family=Ubuntu&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Rubik:wght@300&display=swap');
 
 body {
-font-family: "Ubuntu";
+font-family: "Rubik";
 margin: 0px;
 background-color: #ffff;
 }
@@ -109,4 +109,8 @@ h1 {
     display: block;
     margin-bottom: 10px;
     outline: none;
+}
+
+.password:hover {
+    border-color: greenyellow;
 }
