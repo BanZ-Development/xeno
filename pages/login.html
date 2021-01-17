@@ -26,9 +26,17 @@
         <div class="login">
             <h1>Login</h1>
             <img src="" class="login-logo">
-            <input class="password" type="password">
-            <a href="" class="login-button">Log in</a>
+            <input class="password" id="passwordInput" type="password">
+            <a href=""  onclick="adminLogin()" class="login-button">Log in</a>
         </div>
         <script src="main.js"></script>
     </body>
+    <script>
+        function adminLogin() {
+            let password = document.getElementById('passwordInput').value;
+            if(password == 'password') {
+                console.log('Logged in!');
+            }
+        }
+    </script>
 </html>
