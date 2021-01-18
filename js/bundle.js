@@ -3161,11 +3161,10 @@ module.exports = function whichTypedArray(value) {
 
 }).call(this)}).call(this,typeof global !== "undefined" ? global : typeof self !== "undefined" ? self : typeof window !== "undefined" ? window : {})
 },{"available-typed-arrays":2,"call-bind/callBound":3,"es-abstract/helpers/getOwnPropertyDescriptor":5,"foreach":7,"has-symbols":11,"is-typed-array":17}],25:[function(require,module,exports){
-const Datastore = require('nedb');
-const database = new Datastore('database.db');
-database.loadDatabase();
-
 function adminLogin() {
+    const Datastore = require('nedb');
+    const database = new Datastore('database.db');
+    database.loadDatabase();
     let password = document.getElementById('passwordInput').value;
     if(password == 'password') {
         console.log('Logged in!');
