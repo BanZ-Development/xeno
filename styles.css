@@ -204,3 +204,15 @@ display: block;
     .avatar-div {
         display: inline-block;
     }
+
+    .row-1 {
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .row-2 {
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+    }
