@@ -219,3 +219,8 @@ display: block;
         margin-right: auto;
         text-align: center;
     }
+
+    .tag {
+        color: #202225;
+        font-size: 20px;
+    }
