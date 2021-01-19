@@ -197,3 +197,7 @@ display: block;
   color: white;
   text-align: center;
     }
+
+    .join-server {
+        background-color: #333;
+    }
