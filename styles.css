@@ -170,14 +170,16 @@ margin-bottom: 6px;
     margin-top: 5px;
 }
 
-xeno-description {
+.xeno-description {
     font-size: 30px;
     width: 700px;
     float: left;
 }
 
-xeno-div {
-
+.xeno-div {
+margin-left: auto;
+margin-right: auto;
+display: block;
 }
 
 
