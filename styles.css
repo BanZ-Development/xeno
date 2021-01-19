@@ -187,3 +187,9 @@ xeno-div {
     float: none;
 }
 }
+
+@media (max-width: 1260px) {
+    .freestyle-video {
+        float: right;
+    }
+    }
