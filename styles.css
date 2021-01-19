@@ -195,7 +195,11 @@ display: block;
 
     /* Start of Contact Grid CSS */
 
-    .container {
+    * {
+        box-sizing: border-box;
+      }
+      
+      .container {
         max-width: 900px;
         margin: auto;
       }
@@ -206,13 +210,15 @@ display: block;
         grid-gap: 20px;
         list-style-type: none;
         padding-left: 0;
-      
+    }
+
         .card {
           position: relative;
           border: 1px solid #ccc;
           text-align: center;
           overflow: hidden;
           background: #ffffff;
+        }
       
           img {
             display: block;
@@ -227,7 +233,7 @@ display: block;
             position: absolute;
             bottom: 0;
           }
-          
+      
             span {
               line-height: 26px;
               font-weight: bold;
