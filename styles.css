@@ -193,14 +193,87 @@ display: block;
         margin-left: 56px;
     }
 
-    .avatar {
-        border-radius: 50%;
-        width: 100px;
-        display: block;
-        margin-left: auto;
-        margin-right: auto;
-    }
+    /* Start of Contact Grid CSS */
 
-    .avatar-div {
-        
-    }
+    .container {
+        max-width: 900px;
+        margin: auto;
+      }
+      
+      .cards {
+        display: grid;
+        grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+        grid-gap: 20px;
+        list-style-type: none;
+        padding-left: 0;
+      
+        .card {
+          position: relative;
+          border: 1px solid #ccc;
+          text-align: center;
+          overflow: hidden;
+          background: #ffffff;
+      
+          img {
+            display: block;
+            max-width: 100%;
+            object-fit: cover;
+            width: 100%;
+            height: 250px;
+          }
+      
+          .info {
+            opacity: 0;
+            position: absolute;
+            bottom: 0;
+          }
+          
+            span {
+              line-height: 26px;
+              font-weight: bold;
+            }
+      
+            &:before {
+              content: "";
+              position: absolute;
+              bottom: 0;
+              left: -50px;
+              width: 0;
+              height: 0;
+              border-bottom: 50px solid #81c784;
+              border-left: 50px solid transparent;
+            }
+          }
+      
+          &:before {
+            content: "";
+            position: absolute;
+            bottom: 0;
+            right: 0;
+            width: 0;
+            height: 0;
+            border-bottom: 50px solid #81c784;
+            border-left: 50px solid transparent;
+          }
+      
+          &:hover {
+            .info {
+              opacity: 1;
+              width: 100%;
+              height: 50px;
+              background: #81c784;
+              padding: 10px;
+              animation: 1s slide-in;
+            }
+          }
+        }
+      }
+      
+      @keyframes slide-in {
+        0% {
+          right: -400px;
+        }
+        100% {
+          right: 0;
+        }
+      }
