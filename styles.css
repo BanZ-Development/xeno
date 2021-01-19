@@ -184,7 +184,7 @@ display: block;
 
 @media (max-width: 1260px) {
     .freestyle-video {
-        float: none;
+        float: left;
     }
     }
 
