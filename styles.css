@@ -272,3 +272,7 @@ display: block;
     nav-item:hover {
         background-color: #504e4e;
     }
+
+    .footer-h1 {
+        color: white;
+    }
