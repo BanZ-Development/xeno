@@ -313,6 +313,9 @@ width: 375px;
 @media only screen and (max-width: 736px) {
     .freestyle-video {
     width: 414px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
     }
 }
 
