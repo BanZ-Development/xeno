@@ -300,14 +300,14 @@ width: 375px;
 }
 }
 
-@media only screen and (max-width: 414px) {
+@media only screen and (max-width: 736px) {
     .xeno-description {
     font-size: 20px;
     width: 414px;
     }
 }
 
-@media only screen and (max-width: 414px) {
+@media only screen and (max-width: 736px) {
     .freestyle-video {
     width: 414px;
     }
