@@ -299,3 +299,16 @@ width: 375px;
     margin-top: 10px;
 }
 }
+
+@media only screen and (max-width: 414px) {
+    .xeno-description {
+    font-size: 20px;
+    width: 414px;
+    }
+}
+
+@media only screen and (max-width: 414px) {
+    .freestyle-video {
+    width: 414px;
+    }
+}
