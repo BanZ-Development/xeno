@@ -256,3 +256,19 @@ display: block;
         margin-top: 8px;
         margin-right: 5px;
     }
+
+    .nav-item {
+
+    }
+
+    .login-item {
+
+    }
+
+    .login-item:hover {
+        background-color: #504e4e;
+    }
+
+    nav-item:hover {
+        background-color: #504e4e;
+    }
