@@ -276,3 +276,7 @@ display: block;
     .footer-h1 {
         color: white;
     }
+
+    .footer-list {
+        margin-top: -10px;
+    }
