@@ -257,14 +257,6 @@ display: block;
         margin-right: 5px;
     }
 
-    .nav-item {
-
-    }
-
-    .login-item {
-
-    }
-
     .login-item:hover {
         background-color: #504e4e;
     }
@@ -275,8 +267,4 @@ display: block;
 
     .footer-h1 {
         color: white;
-    }
-
-    .footer-list {
-        margin-top: -10px;
     }
