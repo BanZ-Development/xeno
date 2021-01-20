@@ -312,3 +312,16 @@ width: 375px;
     width: 414px;
     }
 }
+
+@media only screen and (max-device-width : 812px) {
+    .xeno-description {
+        width: 375px;
+        font-size: 15px;
+    }
+}
+
+@media only screen and (max-device-width : 812px) {
+    .freestyle-video {
+        width: 375px;
+    }
+}
