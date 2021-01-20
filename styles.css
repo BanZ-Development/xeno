@@ -273,7 +273,7 @@ display: block;
         margin-top: 10px;
     }
     
-    @media only screen and (max-width: 375px) {
+    @media only screen and (max-width: 1260px) {
         .xeno-description {
             size: 10px;
             margin-left: 0px;
