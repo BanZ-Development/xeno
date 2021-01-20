@@ -31,7 +31,7 @@ padding: 5px;
 border: solid 2px ;
 border-radius: 6px;
 border-color: #fff0;
-transition: ease-in;
+transition:all 0.3s ease;
 font-size: 17px;
 outline: none;
 margin-left: 10px;
@@ -69,7 +69,7 @@ border: none;
 border-radius: 6px;
 border-color: #333;
 background-color: #333;
-transition: ease-in;
+transition:all 0.3s ease;
 color: white;
 display: block;
 margin-left: auto;
@@ -141,6 +141,7 @@ margin-bottom: 6px;
     margin-right: auto;
     margin-left: auto;
     border-radius: 15px;
+    background-color: #bbbbbb;
 }
 
 .home-header {
@@ -197,6 +198,7 @@ display: block;
     .join-server {
         background-color: #333;
         margin-left: 56px;
+        transition: all 0.3s ease;
     }
 /* css for contact */
     .avatar {
