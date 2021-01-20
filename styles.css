@@ -272,3 +272,30 @@ display: block;
     .footer-list {
         margin-top: 10px;
     }
+    
+    @media only screen and (max-width: 375px) {
+        .xeno-description {
+            size: 10px;
+            margin-left: 0px;
+            width: 375px;
+            float: none;
+        }
+    }
+
+    @media (max-width: 1260px) {
+.freestyle-video {
+width: 375px;
+}
+}
+
+@media only screen and (max-width: 375px) {
+
+.join-server {
+    margin-left: auto;
+    transition: all 0.3s ease;
+    margin-right: auto;
+    display: block;
+    width: 190px;
+    margin-top: 10px;
+}
+}
