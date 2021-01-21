@@ -6,7 +6,7 @@ font-family: "Rubik";
 margin: 0px;
 background-color: #ffff;
 background-image: url("https://pbs.twimg.com/media/ER0AQagU8AAUjHM.jpg");
-background-position: cover;
+background-size: cover;
 background-position: right;
 }
 
