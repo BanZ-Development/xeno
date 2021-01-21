@@ -113,11 +113,10 @@ margin-bottom: 6px;
 
 .input-tryout {
     padding: 10px;
-    border: none;
+    border: #333 1px solid;
     border-radius: 6px;
     background-color: #333;
     color: white;
-    border-color: #fff0;
     margin-left: auto;
     margin-right: auto;
     display: block;
