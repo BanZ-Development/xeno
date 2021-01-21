@@ -360,6 +360,19 @@ width: 375px;
                     width: 375px;
                 }
                 }
+                @media only screen and (max-width: 375px) {
+
+                    .join-server {
+                        margin-left: auto;
+                        transition: all 0.3s ease;
+                        margin-right: auto;
+                        display: block;
+                        width: 190px;
+                        margin-top: 10px;
+                        position: static;
+                        visibility: hidden;
+                    }
+                    }
 
 /* iPhone 12 */
 @media only screen and (device-width: 390px) {
