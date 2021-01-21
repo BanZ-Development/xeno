@@ -305,6 +305,15 @@ width: 375px;
 }
 
 /* iPhone 6/7/8 Plus  */
+@media only screen 
+    and (device-width : 375px) 
+    and (device-height : 812px) 
+    and (-webkit-device-pixel-ratio : 3) {
+        .xeno-description {
+            font-size: 20px;
+            width: 375px;
+        }
+    }
 
 @media only screen and (max-width: 736px) {
     .xeno-description {
