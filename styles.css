@@ -300,6 +300,7 @@ width: 375px;
     display: block;
     width: 190px;
     margin-top: 10px;
+    position: static;
 }
 }
 
