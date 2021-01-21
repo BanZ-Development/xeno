@@ -315,6 +315,18 @@ width: 375px;
         }
     }
 
+    @media only screen 
+    and (device-width : 375px) 
+    and (device-height : 812px) 
+    and (-webkit-device-pixel-ratio : 3) {
+        .freestyle-video {
+            width: 414px;
+            display: block;
+            margin-left: auto;
+            margin-right: auto;
+        }
+    }
+
 @media only screen and (max-width: 736px) {
     .xeno-description {
     font-size: 20px;
