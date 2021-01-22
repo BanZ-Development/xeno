@@ -5,9 +5,9 @@ body {
 font-family: "Rubik";
 margin: 0px;
 background-color: #ffff;
-background-image: url("https://pbs.twimg.com/media/ER0AQagU8AAUjHM.jpg");
+background-image: url("https://wallpaperaccess.com/full/212648.jpg");
 background-size: cover;
-background-position: right;
+background-position: center;
 }
 
 nav {
@@ -179,7 +179,7 @@ margin-bottom: 6px;
     float: left;
     margin-left: 56px;
     color: white;
-    font-weight: 100;
+    font-weight: bold;
 }
 
 .xeno-div {
