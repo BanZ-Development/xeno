@@ -122,6 +122,7 @@ margin-bottom: 6px;
     display: block;
     margin-bottom: 10px;
     outline: none;
+    box-shadow: 2px 2px 5px #292828fc;
 }
 
 .input-tryout:hover {
@@ -226,6 +227,7 @@ display: block;
         margin: 5px;
         width: 210px;
         height: 200px;
+        box-shadow: 2px 2px 5px #292828fc;
     }
 
     .row-1 {
